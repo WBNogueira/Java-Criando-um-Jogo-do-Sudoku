@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ddf1204-a86a-44db-89d3-edbd03b39c36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/UIMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/ui/custom/button/CheckGameStatusButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/ui/custom/button/FinishGameButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/ui/custom/button/ResetButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/ui/custom/frame/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/ui/custom/panel/MainPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/ui/custom/panel/SudokuSector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dio/model/GameStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/model/GameStatusEnum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,15 +39,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.UIMain.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.UIMain">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.dio.Main" />
       <module name="sudoku" />
@@ -61,8 +68,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UIMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.UIMain" />
+      <module name="sudoku" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UIMain" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
