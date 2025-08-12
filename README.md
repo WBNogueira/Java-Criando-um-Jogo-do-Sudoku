@@ -30,37 +30,37 @@ src/
 │   ├── UIMain.java                     # Interface gráfica do jogo
 │
 ├── br.com.dio.model/
-│   ├── Board.java                      # Representa o tabuleiro do Sudoku
-│   ├── GameStatusEnum.java             # Representa o Status do jogo
-│   ├── Space.java                      # Representa uma célula individual do tabuleiro
+│   ├── Board.java                       # Representa o tabuleiro do Sudoku e sua lógica interna
+│   ├── GameStatusEnum.java              # Enum que define os possíveis status do jogo (em andamento, concluído, etc.)
+│   ├── Space.java                       # Representa uma célula do tabuleiro (valor, fixo ou não)
 │
 ├── br.com.dio.service/
-│   ├── BoardService.java
-│   ├── EventEnum.java
-│   ├── EventListener.java
-│   ├── NotifierService.java
+│   ├── BoardService.java                # Serviços e operações sobre o tabuleiro
+│   ├── EventEnum.java                   # Enum para tipos de eventos no jogo
+│   ├── EventListener.java               # Interface para escuta de eventos de jogo
+│   ├── NotifierService.java             # Serviço responsável por notificar mudanças no estado do jogo
 │
-├── br.com.dio.ui.custom.button
-│   ├── CheckGameStatusButton.java
-│   ├── FinishGameButton.java
-│   ├── ResetButton.java
+├── br.com.dio.ui.custom.button/
+│   ├── CheckGameStatusButton.java       # Botão para verificar o status atual do jogo
+│   ├── FinishGameButton.java            # Botão para finalizar o jogo
+│   ├── ResetButton.java                 # Botão para resetar o tabuleiro
 │
-├── br.com.dio.ui.custom.frame
-│   ├── MainFrame.java
+├── br.com.dio.ui.custom.frame/
+│   ├── MainFrame.java                   # Janela principal da interface gráfica
 │
-├── br.com.dio.ui.custom.input
-│   ├── NumberText.java
-│   ├── NumberTextLimit.java
+├── br.com.dio.ui.custom.input/
+│   ├── NumberText.java                  # Campo de entrada para números
+│   ├── NumberTextLimit.java             # Limita a quantidade de caracteres no campo de número
 │
-├── br.com.dio.ui.custom.panel
-│   ├── MainPanel.java
-│   ├── SudokuSector.java
+├── br.com.dio.ui.custom.panel/
+│   ├── MainPanel.java                   # Painel principal da interface gráfica
+│   ├── SudokuSector.java                # Representa visualmente um setor 3x3 do Sudoku
 │
 ├── br.com.dio.ui.custom.screen/
-│   ├── MainScreen.java                 # Gerencia a interface gráfica do jogo
+│   ├── MainScreen.java                  # Monta e organiza a tela principal da UI
 │
 ├── br.com.dio.util/
-│   ├── BoardTemplate.java              # Template visual do tabuleiro no modo terminal
+│   ├── BoardTemplate.java               # Template ASCII para exibir o tabuleiro no terminal
 ```
 
 ---
